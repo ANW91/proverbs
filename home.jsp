@@ -45,6 +45,9 @@
 		  <li class="nav-item">
 			<a class="nav-link" href="/proverbs/allProverbs.jsp">All Proverbs</a>
 		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/proverbs/proverbGenerator.jsp">Proverb Generator</a>
+		  </li>
 		</ul>
 		</div>
 	</nav>

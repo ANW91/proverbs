@@ -47,7 +47,7 @@
 		  <li class="nav-item">
 			<a class="nav-link" href="/proverbs/home.jsp">Home</a>
 		  </li>
-		  <li class="nav-item active">
+		  <li class="nav-item">
 			<a class="nav-link disabled" href="/proverbs/resultsPage.jsp">Results<span class="sr-only">(current)</span></a>
 		  </li>
 		  <li class="nav-item">
@@ -56,10 +56,13 @@
 		  <li class="nav-item active">
 			<a class="nav-link active" href="/proverbs/allProverbs.jsp">All Proverbs</a>
 		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/proverbs/proverbGenerator.jsp">Proverb Generator</a>
+		  </li>
 		</ul>
 		<form class="form-inline my-0 my-lg-0" action="/proverbs/resultsPage.jsp">
 		  <div class="col active-cyan-4 mb-4">
-				<input class="form-control mr-sm-2" id="searchBar" type="text" placeholder="Search" aria-label="Search" name="search">
+				<input class="form-control mr-sm-2" id="searchBar" type="text" placeholder="Search" aria-label="Search" name="search" autocomplete="off">
 			</div>
 		</form>
 		</div>

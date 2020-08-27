@@ -39,7 +39,7 @@
 		</ul>
 		<form class="form-inline my-0 my-lg-0" action="/proverbs/resultsPage.jsp">
 		  <div class="col active-cyan-4 mb-4">
-				<input class="form-control mr-sm-2" id="searchBar" type="text" placeholder="Search" aria-label="Search" name="search">
+				<input class="form-control mr-sm-2" id="searchBar" type="text" placeholder="Search" aria-label="Search" name="search" autocomplete="off">
 			</div>
 		</form>
 		</div>
